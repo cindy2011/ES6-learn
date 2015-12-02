@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "learn nodejs",
+  "main": "",
+  "repository": "https://github.com/iamjoel/ES6-learn",
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-babel": "6.1.1",
+    "gulp-load-plugins": "1.0.0-rc.1",
+    "gulp-sourcemaps": "1.6.0"
+  }
+}
