@@ -3,9 +3,9 @@
 ECMAScript 6（以下简称ES6）是JavaScript语言的下一代标准，已经在2015年6月正式发布了。它的目标，是使得JavaScript语言可以用来编写复杂的大型应用程序，成为企业级开发语言。因为当前版本的ES6是在2015年发布的，所以又称ECMAScript 2015。
 
 ## ES6 编译成 ES5 的方法
-这边介绍用 [Gulp](http://gulpjs.com/) 配合 [Babel 6](http://babeljs.io/) 来做。如果其他工具配合 Bable 来做，可以见[这里](http://babeljs.io/docs/setup/)。
+这边介绍用 [Gulp](http://gulpjs.com/) 配合 [Babel 6](http://babeljs.io/) 来做。如果用其他工具配合 Bable 来做，可以见[这里](http://babeljs.io/docs/setup/)。
 
-不知道 Gulp 是什么？请先查看[Gulp 入门指南](https://github.com/nimojs/gulp-book)吧。
+不知道 Gulp 是什么？请先查看[Gulp 入门指南](https://github.com/nimojs/gulp-book)。
 
 ### 安装插件
 安装 Gulp 上 Babel 的插件
