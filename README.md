@@ -1,14 +1,16 @@
 # ES6 学习
 ## ES6 编译成 ES5 的方法
-这边介绍用 Gulp 配合 Babel 6 来做。如果其他工具配合 Bable 来做，可以见[这里](http://babeljs.io/docs/setup/)
+这边介绍用 [Gulp](http://gulpjs.com/) 配合 [Babel 6](http://babeljs.io/) 来做。如果其他工具配合 Bable 来做，可以见[这里](http://babeljs.io/docs/setup/)。
+
+不知道 Gulp 是什么？请先查看[Gulp 入门指南](https://github.com/nimojs/gulp-book)吧。
 
 ### 安装插件
-安装 Gulp 上的 Babel 插件
+安装 Gulp 上 Babel 的插件
 ```
 npm install --save-dev gulp-babel
 ```
 
-安装将 Babel 上将 ES6 转换成 ES5 的插件
+安装 Babel 上将 ES6 转换成 ES5 的插件
 
 ```
 npm install --save-dev babel-preset-es2015
