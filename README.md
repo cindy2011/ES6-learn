@@ -7,7 +7,7 @@ ECMAScript 6（以下简称ES6）是JavaScript语言的下一代标准，已经�
 
 不知道 Gulp 是什么？请先查看[Gulp 入门指南](https://github.com/nimojs/gulp-book)。
 
-### 安装插件
+### 安装依赖
 安装 Gulp 上 Babel 的插件
 ```
 npm install --save-dev gulp-babel
@@ -26,9 +26,9 @@ var gulp = require("gulp");
 var babel = require("gulp-babel");
 
 gulp.task("default", function () {
-  return gulp.src("src/**/*.js")
+  return gulp.src("src/**/*.js")// ES6 源码存放的路径
     .pipe(babel())
-    .pipe(gulp.dest("dist"));
+    .pipe(gulp.dest("dist")); //转换成 ES5 存放的路径
 });
 ```
 
@@ -57,7 +57,8 @@ gulp.task("default", function () {
 }
 ```
 
-### 编译
+### 转换
+命令行中执行
 ```
 gulp
 ```
