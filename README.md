@@ -2,23 +2,32 @@
 ## ES6 编译成 ES5 的方法
 这边介绍用 Gulp 配合 Babel 6 来做。如果其他工具配合 Bable 来做，可以见[这里](http://babeljs.io/docs/setup/)
 
-### 安装
-`npm install --save-dev gulp-babel`
+### 安装插件
+安装 Gulp 上的 Babel 插件
+```
+npm install --save-dev gulp-babel
+```
 
-### 使用
-类似
+安装将 Babel 上将 ES6 转换成 ES5 的插件
+
+```
+npm install --save-dev babel-preset-es2015
+```
+
+### Gulp 配置
+gulpfile.js 的内容，形如
 ```
 var gulp = require("gulp");
 var babel = require("gulp-babel");
 
 gulp.task("default", function () {
-  return gulp.src("src/app.js")
+  return gulp.src("src/**/*.js")
     .pipe(babel())
     .pipe(gulp.dest("dist"));
 });
 ```
 
-如果生成 Soucemap， 则用 [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps)。写法：
+如果要生成 Soucemap， 则用 [gulp-sourcemaps](https://github.com/floridoo/gulp-sourcemaps)，形如：
 ```
 var gulp = require("gulp");
 var sourcemaps = require("gulp-sourcemaps");
@@ -35,15 +44,7 @@ gulp.task("default", function () {
 });
 ```
 
-### 选择要编译代码的类型
-因为我们要编译的是 ES6(ES2015是其别称)， 所以选 [es2015](http://babeljs.io/docs/plugins/preset-es2015/)。
-
-需要安装
-```
-npm install --save-dev babel-preset-es2015
-```
-
-### 配置
+### Babel 配置
 在项目跟路径创建文件 `.babelrc`。内容为
 ```
 {
@@ -51,9 +52,9 @@ npm install --save-dev babel-preset-es2015
 }
 ```
 
-### 运行
+### 编译
 ```
-gulp 编译的任务名
+gulp
 ```
 
 ## 资源
