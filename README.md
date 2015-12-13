@@ -3,13 +3,13 @@
 ECMAScript 6（以下简称ES6）是JavaScript语言的下一代标准，已经在2015年6月正式发布了。它的目标，是使得JavaScript语言可以用来编写复杂的大型应用程序，成为企业级开发语言。因为当前版本的ES6是在2015年发布的，所以又称ECMAScript 2015。
 
 ## 内容
-* 块作用域变量定义：let 和 常量定义 const
+* [块作用域变量定义：let 和 常量定义 const](src/let-and-const)
+* 箭头函数
 * for-of 循环
 * 生成器：Generators
 * 模板字符串
 * 不定参数和默认参数
 * 解构（Destructing）
-* 箭头函数
 * Symbols
 * 集合
 * 代理（Proxies）
