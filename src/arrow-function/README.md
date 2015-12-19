@@ -11,7 +11,7 @@
 () => Math.random();
 ```
 
-生成
+等效于
 ```
 function(x, y){
 	console.log(x, y);
