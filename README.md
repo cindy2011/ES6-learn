@@ -4,12 +4,12 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 
 ## 内容
 * [块作用域变量定义：let 和 常量定义 const](src/let-and-const)
+* [解构（Destructing）](src/destructing)
 * [不定参数和默认参数](src/rest-parameters-and-defaults)
 * [箭头函数](src/arrow-function)
 * for-of 循环
 * 生成器：Generators
 * 模板字符串
-* 解构（Destructing）
 * Symbols
 * 集合
 * 代理（Proxies）
@@ -18,7 +18,7 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 
 ## 运行本项目
 * 安装依赖：`npm i` 以及 `npm install --global gulp`
-* 编译: `gulp`
+* 编译：`gulp`
 * 在浏览器中打开 `src/index.html`
 
 ## 其他
