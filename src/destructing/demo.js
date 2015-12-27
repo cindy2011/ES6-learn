@@ -1,5 +1,9 @@
 "use strict";
 (() => {
+    var [a,b] = [1,2];
+    [a,b] = [b,a]; // 交换值 so easy
+    console.log(a,b);
+
     var [first, second, third] = ['a', 'b', 'c'];
     console.log(first, second, third);
 
