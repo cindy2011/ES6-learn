@@ -23,6 +23,8 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 * 编译：`gulp`
 * 在浏览器中打开 `src/index.html`
 
+注意：如果以前安装过 Gulp 的，需要将 Gulp 的版本升级到 3.9.0 以上。因为本项目用的是 gulpfile.babel.js。而只有 3.9.0 以上的 Gulp 才会读取 gulpfile.babel.js。
+
 ## 其他
 * 如何将ES6 编译成 ES5？见[这里](how-to-compile.md)。
 
