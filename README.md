@@ -4,6 +4,7 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 
 ## 内容
 * [块作用域变量定义：let 和 常量定义 const](src/let-and-const)
+* [模板字符串](src/template-string)
 * [解构（Destructing）](src/destructing)
 * [不定参数和默认参数](src/rest-parameters-and-defaults)
 * [for-of 循环](src/for-of)
@@ -11,7 +12,6 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 * [箭头函数](src/arrow-function)
 * 新的数据类型: Map 和 Set
 * 生成器：Generators
-* 模板字符串
 * Symbols
 * 集合
 * 代理（Proxies）
