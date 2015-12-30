@@ -8,7 +8,7 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 * [解构（Destructing）](src/destructing)
 * [不定参数和默认参数](src/rest-parameters-and-defaults)
 * [for-of 循环](src/for-of)
-* 迭代器
+* [迭代器](src/iterator)
 * [箭头函数](src/arrow-function)
 * 新的数据类型: Map 和 Set
 * 生成器：Generators
