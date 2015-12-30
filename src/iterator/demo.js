@@ -1,6 +1,6 @@
 var obj = {
     val: ['a', 'b', 'c'],
-    [Symbol.iterator]: () => {
+    [Symbol.iterator]: () => {// 实现迭代器
         var index = -1;
         return {
             next: () => {
