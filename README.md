@@ -33,6 +33,7 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 * [ECMAScript 6入门](http://es6.ruanyifeng.com/) 阮一峰老师写的。
 * [深入浅出 ES6 的中文版](http://www.infoq.com/cn/es6-in-depth/) [原文](https://hacks.mozilla.org/category/es6-in-depth/)。
 * [ES6 Katas](http://es6katas.org/) 通过写ES6的代码来学习ES6。修复失败的测试来学习这些知识。
+* [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
 
 ## 工具
 * [Babel](http://babeljs.io/) JavaScript 编译器：指定当前代码转换转换成什么代码。例如可以将 ES6 的代码编译成 ES5的。
