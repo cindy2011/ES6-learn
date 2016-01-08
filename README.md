@@ -38,3 +38,4 @@ ECMAScript 6（以下简称ES6）是 JavaScript 语言的下一代标准，已�
 
 ## 工具
 * [Babel](http://babeljs.io/) JavaScript 编译器：指定当前代码转换转换成什么代码。例如可以将 ES6 的代码编译成 ES5的。
+* [Lebab](http://lebab.io/) 将 ES5 代码编译成 ES6 代码。[在线尝试](http://lebab.io/try-it)
