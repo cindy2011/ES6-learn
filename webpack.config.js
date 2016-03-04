@@ -2,6 +2,7 @@
 module.exports = {
     entry: {
         'arrow-function': './src/arrow-function/demo.js',
+        'module': './src/module/main.js'
     },
     output: {
         'path': 'dist',
