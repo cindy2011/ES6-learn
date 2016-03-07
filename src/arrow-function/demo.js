@@ -23,7 +23,7 @@
         this.name = name;
     }
     Animal.prototype.say = ()=> {
-        setTimeout(() => console.log('I am %s', this.name), 0);// 编译代码中 this 有问题
+        // setTimeout(() => console.log('I am %s', this.name), 0);// 编译代码中 this 有问题
     }
     var tiger = new Animal('Tiger');
     tiger.say();
