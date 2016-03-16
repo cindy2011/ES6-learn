@@ -10,9 +10,18 @@ function getDirectories(srcpath) {
 
 var srcDirectories = getDirectories('./src');
 var entry = {};
+/*
+把 src 下所有 demo 文件
+生成的 entity 类似
+{
+    'arrow-function/demo': 'src/arrow-function/demo'
+    // ...
+}
+*/
 srcDirectories.forEach(function (directorName) {
-    entry[directorName] = ['./src', directorName, 'demo.js'].join('/');
+    entry[directorName + '/demo'] = ['./src', directorName, 'demo'].join('/');
 });
+
 
 module.exports = {
     entry: entry,
